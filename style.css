@@ -45,6 +45,7 @@ header {
     width: calc(100% / 10);
     border: 1px solid black;
     cursor: pointer;
+    padding: 15px;
 }
 
 /*BOTTONE*/
@@ -72,5 +73,10 @@ h2 {
 
 /*CLASSE BLOCK*/
 .bg-lightblue {
-    background-color: lightblue;
+    background-color: lightskyblue;
+}
+
+/*BODY*/
+body {
+    background-color: lightgoldenrodyellow;
 }
