@@ -2,9 +2,14 @@
 console.log('JS OK');
 
 //RECUPERIAMO GLI ELEMENTI DAL DOM:
-const container = document.getElementsByClassName('container');
+const container = document.querySelector('.container');
+console.log(container);
 const grid = document.getElementById('grid');
+console.log(grid);
 const button = document.querySelector('button');
+console.log(button);
+const cell = document.getElementsByClassName('cell');
+console.log(cell);
 
 //PREPARO I MIEI DATI INIZIALI:
 const rows = 10;
@@ -17,3 +22,5 @@ button.addEventListener('click' , function(){
     //AL CLICK TOLTO LA CLASSE NONE AL CONTAINER:
     container.classList.remove('none');
 })
+
+

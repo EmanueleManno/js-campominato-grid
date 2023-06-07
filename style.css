@@ -71,6 +71,6 @@ h2 {
 }
 
 /*CLASSE BLOCK*/
-.block {
-    display: block;
+.bg-lightblue {
+    background-color: lightblue;
 }
