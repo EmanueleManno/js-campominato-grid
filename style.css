@@ -12,6 +12,33 @@ body {
 
 /*UTILITIES*/
 .container {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+/*HEADER*/
+header {
+    height: 100px;
+    padding: 10px 50px;
+    line-height: 50px;
+    background-color: white;
+}
+
+/*GRIGLIA*/
+#grid {
+    height: 500px;
+    width: 500px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px dashed black;
+}
+
+/*CELLA*/
+.cell {
+    height: calc(100% / 8);
+    width: calc(100% / 8);
+    border: 1px solid red;
+    cursor: pointer;
 }
