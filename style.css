@@ -32,13 +32,13 @@ header {
     margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
-    border: 2px dashed black;
+    border: 5px dashed black;
 }
 
 /*CELLA*/
 .cell {
     height: calc(100% / 8);
     width: calc(100% / 8);
-    border: 1px solid red;
+    border: 1px solid black;
     cursor: pointer;
 }

@@ -22,3 +22,14 @@ Aggiungere una select accanto al bottone di generazione, che fornisca una scelta
 ___
 ___
 ___
+
+
+# SVOLGIMENTO 
+- Recuperare gli elementi che mi servono dal DOM.
+- Mettere in ascolto il bottone che mi permette di giocare.
+- SE viene cliccato il bottone:
+    - Generazione della griglia.
+    - Generezione dei numeri all'interno della griglia. 
+    - SE viene cliccata una cella:
+        - Allora essa verrà colorata di azzurro.
+        - Stampo il numero contenuto nella cella in console.
