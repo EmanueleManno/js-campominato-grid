@@ -19,10 +19,14 @@ body {
 
 /*HEADER*/
 header {
-    height: 100px;
+    height: 150px;
     padding: 10px 50px;
     line-height: 50px;
-    background-color: white;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*GRIGLIA*/
@@ -32,13 +36,41 @@ header {
     margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
-    border: 5px dashed black;
+    border: 2px dashed black;
 }
 
 /*CELLA*/
 .cell {
-    height: calc(100% / 8);
-    width: calc(100% / 8);
+    height: calc(100% / 10);
+    width: calc(100% / 10);
     border: 1px solid black;
     cursor: pointer;
+}
+
+/*BOTTONE*/
+button {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 75px;
+    background-color: lightgoldenrodyellow;
+}
+
+/*TITOLO DELL'HEADER*/
+h2 {
+    color: lightgreen;
+    font-size: 50px;
+    padding: 10px 15px;
+}
+
+/*CLASSE NONE*/
+.none {
+    display: none;
+}
+
+/*CLASSE BLOCK*/
+.block {
+    display: block;
 }
